@@ -1,0 +1,7 @@
+.lake/
+*.olean
+*.ilean
+*.olean.*
+*.ilean.*
+*.c
+verification/*.tmp

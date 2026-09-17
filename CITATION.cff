@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the original mathematical paper for the theorem; this citation identifies the AI-assisted formalization artifact."
+title: "Exact four-uniform no-singleton intersection theorem: Lean formalization"
+type: software
+version: 1.0.1
+date-released: 2026-09-17
+authors:
+  - family-names: "郭"
+    given-names: "强"
+    email: "guoqiangcoffee@gmail.com"
+license: Apache-2.0
+abstract: "AI-assisted formalization led by Guo Qiang, developed with OpenAI Codex. Mathematical theorem by Keevash, Mubayi and Wilson (2006). See AUTHORS.md for roles and attribution."
