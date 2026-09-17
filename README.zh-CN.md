@@ -46,7 +46,11 @@ Windows 可使用 verify.ps1；验证导出与独立检查说明见 verification
 
 ## 范围
 
-这是与 JSP-000572 相关的 **k=4 精确结果**，不是一般 k≥4 的原题形式化，不包含极值构造的唯一性分类，也不代表获奖。按 2026-09-17 核查到的官方完整原题要求，本范围不能单独作为该奖完整原题投稿；本次按独立研究成果公开。详见 CURRENT-INTAKE.md 与 PRIORITY-REVIEW.md。
+这是与 JSP-000572 相关的 **k=4 精确结果**，不是一般 k≥4 的原题形式化，也不包含极值构造的唯一性分类。
+
+源码与验证材料已在 [guoqiangcoffee-source/jsp572-four-lean](https://github.com/guoqiangcoffee-source/jsp572-four-lean) 公开。郭强正在准备正式提交，提请主办方评审，并如实披露四元范围及既有工作。
+
+按 2026-09-17 核查到的官方规则，投稿须覆盖完整原题，单独特例不符合该要求；本项目存在这一范围限制。提交不等于获得资格、受理或获奖，也不主张首次形式化优先权。目前尚未收到接受决定，贡献认定及奖项决定由评审方作出。详见 CURRENT-INTAKE.md 与 PRIORITY-REVIEW.md。
 
 ## English abstract
 

@@ -53,6 +53,8 @@ See [VERIFICATION.md](VERIFICATION.md) and the **verification/** directory for e
 
 This is the exact **k=4** result for all n. It does not formalize the original problem for all k≥4 and does not classify all equality cases. Earlier public work proves the general eventual-in-n statement; see [PRIORITY-REVIEW.md](PRIORITY-REVIEW.md).
 
-The Justin Sun Prize's complete-original-problem policy, checked at official commit **82be4c4913b8fe394d68d1391f4c221fde947211**, excludes standalone special-case submissions. We therefore do not present this repository as an eligible full-original-problem submission, request an award-status change, or claim an award. Any request made to the official repository will state the precise scope and ask maintainers how, if at all, it may be recorded. See [CURRENT-INTAKE.md](CURRENT-INTAKE.md).
+The source and verification package are public at [guoqiangcoffee-source/jsp572-four-lean](https://github.com/guoqiangcoffee-source/jsp572-four-lean). Guo Qiang is preparing a formal submission for the organizers' consideration, with the four-uniform scope and prior work disclosed.
+
+The Justin Sun Prize's complete-original-problem policy, checked at official commit **82be4c4913b8fe394d68d1391f4c221fde947211**, requires the full original problem and excludes standalone special cases. This package does not meet that general-scope requirement. Submission asks the organizers to assess the contribution; it does not establish eligibility, acceptance, priority or an award. No acceptance has been received, and those determinations remain with the reviewers. See [CURRENT-INTAKE.md](CURRENT-INTAKE.md).
 
 License: Apache-2.0. See [LICENSE](LICENSE).
