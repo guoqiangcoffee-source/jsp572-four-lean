@@ -1,0 +1,12 @@
+'JSP572Four.singletonFree_four_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP572Four.singletonFree_four_bound_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP572Four.sharpBound_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP572Four.exact_extremal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP572Four.jsp572_four_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP572Four.jsp572_four_complete (n : ℕ) :
+  ∃ F,
+    JSP572Four.Uniform 4 F ∧
+      JSP572Four.NoSingleton F ∧
+        F.card = JSP572Four.sharpBound n ∧
+          ∀ (G : Finset (Finset (Fin n))), JSP572Four.Uniform 4 G → JSP572Four.NoSingleton G → G.card ≤ F.card
+Axiom allowlist audit passed.

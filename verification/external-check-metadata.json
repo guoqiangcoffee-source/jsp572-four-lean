@@ -1,0 +1,91 @@
+{
+  "timestampUTC": "2026-09-17T12:20:22.096Z",
+  "target": "JSP572Four.jsp572_four_complete",
+  "exportedTargetFound": true,
+  "exporterMetadata": {
+    "exporter": {
+      "name": "lean4export",
+      "version": "3.1.0"
+    },
+    "format": {
+      "version": "3.1.0"
+    },
+    "lean": {
+      "githash": "11acb17ec6b07a8f9e9173e6845197929540936b",
+      "version": "4.35.0-rc2"
+    }
+  },
+  "exportBytes": 41818036,
+  "exportSha256": "5acb1064abb7f960ef933e9c4a77552762ac032217648ebae59c4b5c02c2d438",
+  "archiveFile": "jsp572-four-complete.ndjson.gz",
+  "archiveSha256": "a7bcc99e580e7d016023707e4edcd2cd6190a78d8edbbb881e8ce0a09aba04dd",
+  "exportedAxioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "namedDeclarationCountByRecord": 8286,
+  "checkers": [
+    {
+      "name": "lean4lean",
+      "command": [
+        "lean4lean.exe",
+        "--import",
+        "jsp572-four-complete.ndjson"
+      ],
+      "exitCode": 0,
+      "declaredCheckedCount": 8283,
+      "binarySha256": "d5bc313564b6f2ed7d8cbb617074b9e8da139ff22e521890f5460136929b0f7e"
+    },
+    {
+      "name": "nanoda",
+      "command": [
+        "nanoda_bin.exe",
+        "external-nanoda-config.json"
+      ],
+      "exitCode": 0,
+      "binarySha256": "d85480c1e8b2588cd8753583c53eb483477e2db4f6463d05fcec9ea1abf44da4",
+      "config": {
+        "use_stdin": false,
+        "export_file_path": "jsp572-four-complete.ndjson",
+        "permitted_axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "unpermitted_axiom_hard_error": true,
+        "num_threads": 4,
+        "nat_extension": true,
+        "string_extension": true
+      }
+    }
+  ],
+  "mainOleanSha256": "bb901221b4ab8f287918bbc4e4950c137064f6b4b8d198da61504ef5bf02a040",
+  "sourceSha256": {
+    "Basic.lean": "7b60490b536f7d66c4be097c50bf3516f374a425f05f29b2f4c922f44d7d2e01",
+    "Compression.lean": "cdf3822cacb064457d212be811138f60a8a69fb2f68cef0cbf6cf5034e9b6678",
+    "Constructions.lean": "4c3fe3961950ec2d226323866bec6ad69c1826238214cdbace34930070790bc3",
+    "Counting.lean": "7369679879f0e64c668f441e1aa229f9a5905b117f2dad3b430a61b426529434",
+    "GlobalCounting.lean": "b1a78e440168b9dcfb943f9c403c752dda569fbfdf033e23bacf3bc9fd8e99fd",
+    "Main.lean": "4a1c263d51c44bec30f94173655e1625f8d4f816f42aa254759acbdcaf279445",
+    "MatchingArithmetic.lean": "dca55267b929e385893e35428b6eeea22c9294e19e17c1983858a177e7f66f71",
+    "MatchingCore.lean": "b386c1ab5484d5d69f4b6a5d456cd2318580d1037e964d58a94e02cce142d58a",
+    "MatchingStructure.lean": "4206dc5779ce04730c1182138505376aaf282a04cdefa24aaee2efbff2a79ec4",
+    "PairGeometry.lean": "207ac45334410c963be0c3e49d5798da6c71437e62f70bea30c47c7533584040",
+    "PerfectMatchingBound.lean": "7862ae3f87ddfa89f8514d3ab761c2fe36de58d28679ec9adda2a39d00515d9a",
+    "ResidualCCount.lean": "4a7f6e46d4be4794c997c15a924f19293ac3f89c79b7425f856e87e67b8d1a70",
+    "ResidualColours.lean": "28e52827395f259de1daf060bcdad9172b18f68ef2e3feee6cd57573eac440e5",
+    "ResidualDCount.lean": "5cd9afe5daf318b7930e6ddd8ac6c4855afba8eb641b6016d16361a3516dcbf3",
+    "ResidualECount.lean": "db9c2d9e08424f2d83913b042510a6d479e592f7005ac6a626b113678737da96",
+    "ResidualPartition.lean": "f33f6b6b8db30db410661aaf8213defa39972147963dfed18124b5814d9198c4",
+    "ShiftedBound.lean": "b72bbebadecb4efbf7e26bcf782ace38b1b72a0b2530e0200d82b18222f9037e",
+    "ShiftedLink.lean": "f8f1d9aafd898399639118dc9f7a063962dd41e94aff9fcbcf7433e0ede07aa6",
+    "TripleBound.lean": "09d9541cc1aa65fb7059dc6eace2530f04018c3aa4b386c34a20cdd6a1577183",
+    "TwoBlockDegree.lean": "81b09a9dbc30e089b4c1dda2ea905e253927082e6a923d1a8fa6dda707cd2cbf",
+    "TwoBlockLinks.lean": "49f1d096f0f2d4e51be75b99335fe9fcdf62a2521e0745ba3bb7d733a64584ae",
+    "TwoBlocks.lean": "612ab2ac04ed3c5dec022d171dd73073fe95e305836b6721bd629d089f18522f",
+    "TwoIntersectingBound.lean": "b69181715aa2f0d7aed7b39b833cd44fc7a24588c790511153e590ffa3ff37a1"
+  },
+  "portableArchiveReplayScriptTested": true,
+  "qualification": "Direct local runs of two independent checkers on the same dependency-closed NDJSON export; not a sandboxed lake check/comparator run and not a claim of prize eligibility or priority."
+}
